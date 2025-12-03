@@ -1,0 +1,13 @@
+﻿<Table TableName="InventoryItem">
+    <Column TableName="InventoryItem" ColumnName="UsrSteel" ColumnType="decimal" AllowNull="True" MaxLength="19" DecimalPrecision="6" DecimalLength="19" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="InventoryItem" ColumnName="UsrLDPEWRAP" ColumnType="decimal" AllowNull="True" MaxLength="19" DecimalPrecision="6" DecimalLength="19" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="InventoryItem" ColumnName="UsrLDPEBAG" ColumnType="decimal" AllowNull="True" MaxLength="19" DecimalPrecision="6" DecimalLength="19" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="InventoryItem" ColumnName="UsrPPRIGID" ColumnType="decimal" AllowNull="True" MaxLength="19" DecimalPrecision="6" DecimalLength="19" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="InventoryItem" ColumnName="UsrPAPCORR" ColumnType="decimal" AllowNull="True" MaxLength="19" DecimalPrecision="6" DecimalLength="19" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="InventoryItem" ColumnName="UsrPAPBRD" ColumnType="decimal" AllowNull="True" MaxLength="19" DecimalPrecision="6" DecimalLength="19" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="InventoryItem" ColumnName="UsrPAPWHT" ColumnType="decimal" AllowNull="True" MaxLength="19" DecimalPrecision="6" DecimalLength="19" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="InventoryItem" ColumnName="UsrEPSFOAM" ColumnType="decimal" AllowNull="True" MaxLength="19" DecimalPrecision="6" DecimalLength="19" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="InventoryItem" ColumnName="UsrPAPKRAFT" ColumnType="decimal" AllowNull="True" MaxLength="19" DecimalPrecision="6" DecimalLength="19" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="InventoryItem" ColumnName="UsrPAPFORMS" ColumnType="decimal" AllowNull="True" MaxLength="19" DecimalPrecision="6" DecimalLength="19" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="InventoryItem" ColumnName="UsrWOOD" ColumnType="decimal" AllowNull="True" MaxLength="19" DecimalPrecision="6" DecimalLength="19" IsNewColumn="True" IsUnicode="True" />
+</Table>
