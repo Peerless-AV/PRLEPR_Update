@@ -10,4 +10,8 @@
     <Column TableName="InventoryItem" ColumnName="UsrPAPKRAFT" ColumnType="decimal" AllowNull="True" MaxLength="19" DecimalPrecision="6" DecimalLength="19" IsNewColumn="True" IsUnicode="True" />
     <Column TableName="InventoryItem" ColumnName="UsrPAPFORMS" ColumnType="decimal" AllowNull="True" MaxLength="19" DecimalPrecision="6" DecimalLength="19" IsNewColumn="True" IsUnicode="True" />
     <Column TableName="InventoryItem" ColumnName="UsrWOOD" ColumnType="decimal" AllowNull="True" MaxLength="19" DecimalPrecision="6" DecimalLength="19" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="InventoryItem" ColumnName="UsrLDPEWRAPqty" ColumnType="int" AllowNull="True" DecimalPrecision="0" DecimalLength="0" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="InventoryItem" ColumnName="UsrLDPEBAGqty" ColumnType="int" AllowNull="True" DecimalPrecision="0" DecimalLength="0" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="InventoryItem" ColumnName="UsrPPRIGIDqty" ColumnType="int" AllowNull="True" DecimalPrecision="0" DecimalLength="0" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="InventoryItem" ColumnName="UsrEPSFOAMqty" ColumnType="int" AllowNull="True" DecimalPrecision="0" DecimalLength="0" IsNewColumn="True" IsUnicode="True" />
 </Table>

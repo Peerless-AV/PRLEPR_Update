@@ -31,6 +31,13 @@
                         <AddItem>
                             <PXNumberEdit TypeFullName="PX.Web.UI.PXNumberEdit">
                                 <Prop Key="Virtual:ApplyStylesheetSkin" />
+                                <Prop Key="DataField" Value="UsrLDPEWRAPqty" />
+                                <Prop Key="ID" Value="CstPXNumberEdit14" />
+                            </PXNumberEdit>
+                        </AddItem>
+                        <AddItem>
+                            <PXNumberEdit TypeFullName="PX.Web.UI.PXNumberEdit">
+                                <Prop Key="Virtual:ApplyStylesheetSkin" />
                                 <Prop Key="ID" Value="CstPXNumberEdit2" />
                                 <Prop Key="DataField" Value="UsrLDPEBAG" />
                             </PXNumberEdit>
@@ -38,8 +45,22 @@
                         <AddItem>
                             <PXNumberEdit TypeFullName="PX.Web.UI.PXNumberEdit">
                                 <Prop Key="Virtual:ApplyStylesheetSkin" />
+                                <Prop Key="DataField" Value="UsrLDPEBAGqty" />
+                                <Prop Key="ID" Value="CstPXNumberEdit15" />
+                            </PXNumberEdit>
+                        </AddItem>
+                        <AddItem>
+                            <PXNumberEdit TypeFullName="PX.Web.UI.PXNumberEdit">
+                                <Prop Key="Virtual:ApplyStylesheetSkin" />
                                 <Prop Key="ID" Value="CstPXNumberEdit9" />
                                 <Prop Key="DataField" Value="UsrPPRIGID" />
+                            </PXNumberEdit>
+                        </AddItem>
+                        <AddItem>
+                            <PXNumberEdit TypeFullName="PX.Web.UI.PXNumberEdit">
+                                <Prop Key="Virtual:ApplyStylesheetSkin" />
+                                <Prop Key="DataField" Value="UsrPPRIGIDqty" />
+                                <Prop Key="ID" Value="CstPXNumberEdit16" />
                             </PXNumberEdit>
                         </AddItem>
                         <AddItem>
@@ -70,30 +91,25 @@
                                 <Prop Key="DataField" Value="UsrEPSFOAM" />
                             </PXNumberEdit>
                         </AddItem>
-                        <AddItem>
-                            <PXNumberEdit TypeFullName="PX.Web.UI.PXNumberEdit">
-                                <Prop Key="Virtual:ApplyStylesheetSkin" />
-                                <Prop Key="ID" Value="CstPXNumberEdit7" />
-                                <Prop Key="DataField" Value="UsrPAPKRAFT" />
-                            </PXNumberEdit>
-                        </AddItem>
-                        <AddItem>
-                            <PXNumberEdit TypeFullName="PX.Web.UI.PXNumberEdit">
-                                <Prop Key="Virtual:ApplyStylesheetSkin" />
-                                <Prop Key="ID" Value="CstPXNumberEdit6" />
-                                <Prop Key="DataField" Value="UsrPAPFORMS" />
-                            </PXNumberEdit>
-                        </AddItem>
-                        <AddItem>
-                            <PXNumberEdit TypeFullName="PX.Web.UI.PXNumberEdit">
-                                <Prop Key="Virtual:ApplyStylesheetSkin" />
-                                <Prop Key="ID" Value="CstPXNumberEdit11" />
-                                <Prop Key="DataField" Value="UsrWOOD" />
-                            </PXNumberEdit>
-                        </AddItem>
                     </Children>
                 </PXTabItem>
             </AddItem>
         </Children>
     </PXTab>
+    <PXButton ID="btnViewBOM" ParentId="phG_tab_Items#3_manufacturingSettingsForm_btnViewBOM" TypeFullName="PX.Web.UI.PXButton">
+        <Prop Key="Text" Value="#CDATA">
+            <CDATA name="Value"><![CDATA[
+                                <Images Normal="main@RecordEdit" ></Images>
+                                <AutoCallBack Command="ViewBOM" Target="ds" ></AutoCallBack>
+                            ]]></CDATA>
+        </Prop>
+    </PXButton>
+    <PXButton ID="btnViewPlanningBOM" ParentId="phG_tab_Items#3_manufacturingSettingsForm_btnViewPlanningBOM" TypeFullName="PX.Web.UI.PXButton">
+        <Prop Key="Text" Value="#CDATA">
+            <CDATA name="Value"><![CDATA[
+                                <Images Normal="main@RecordEdit" ></Images>
+                                <AutoCallBack Command="ViewPlanningBOM" Target="ds" ></AutoCallBack>
+                            ]]></CDATA>
+        </Prop>
+    </PXButton>
 </Page>
